@@ -1,0 +1,16 @@
+2
+Add movies JSON object
+
+Inside of the new ./src/data directory, add a file named movies.json. Paste this JSON into movies.json:
+
+[
+  {
+    "title": "Die Hard"
+  },
+  {
+    "title": "Home Alone"
+  },
+  {
+    "title": "Love Actually"
+  }
+]
