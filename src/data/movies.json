@@ -1,7 +1,4 @@
-2
-Add movies JSON object
 
-Inside of the new ./src/data directory, add a file named movies.json. Paste this JSON into movies.json:
 
 [
   {
