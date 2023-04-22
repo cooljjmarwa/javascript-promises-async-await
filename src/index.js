@@ -45,7 +45,7 @@ function getBooksOrMovies(){
   getBooksAndMoviesAsync.then(resullts => { console.log("movies and books",{
     movies:results.movies,
     books:results.books
-  });});
+  })});
 
   getBooksOrMoviesAsync.then(results => {
     console.error("movies or books",{
