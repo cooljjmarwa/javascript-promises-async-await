@@ -29,7 +29,7 @@ export  async function asyncFetchMovies(){
 
 }
 
-export async function asyncfetchBooks(){
+export async function asyncFetchBooks(){
   try {
     const response = await fetch('data/books.json');
     const results = await response.json();
