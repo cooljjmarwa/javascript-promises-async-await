@@ -42,7 +42,7 @@ function getBooksOrMovies(){
     }
   }
 
-  getBooksAndMoviesAsync.then(resullts => { console.log("movies and books",{
+  getBooksAndMoviesAsync.then(results => { console.log("movies and books",{
     movies:results.movies,
     books:results.books
   })});
