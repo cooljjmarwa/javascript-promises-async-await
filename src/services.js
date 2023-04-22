@@ -28,3 +28,13 @@ export  async function asyncFetchMovies(){
     }
 
 }
+
+export async function asyncfetchBooks(){
+  try {
+    const response = await fetch('data/books.json');
+    const results = await response.json();
+  } catch (error) {
+    console.log(error);
+  }
+
+}
