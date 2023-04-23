@@ -43,8 +43,8 @@ function getBooksOrMovies(){
   }
 
   getBooksAndMoviesAsync.then(results => { console.log("movies and books",{
-    movies:results.movies,
-    books:results.books
+    movies: results.movies,
+    books: results.books
   })});
 
   getBooksOrMoviesAsync.then(results => {
